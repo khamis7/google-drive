@@ -1,0 +1,25 @@
+Case Three: Write a program that decides if an input is alphabet, number or special character.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+namespace myFirstProject
+{
+ class Program
+ {
+ static void Main(string[] args)
+{
+int x; 
+Console.Write("Enter an input")
+x=Convert.ToInt32(Console.ReadLine());
+if(x<=0&&x>0)
+Console.Write("The input is a number",x)
+else if (x>=65&&x<=117)
+Console.Write("The input is an alphabet",x)
+else
+Console.Write("The input is a special character",x)
+Console.ReadKey();
+}
+}
+}
